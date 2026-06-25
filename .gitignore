@@ -1,4 +1,14 @@
-build/
+build/Win/
+build/bin/
+build/CMakeFiles/
+build/Testing/
+
+build/*.txt
+build/*.json
+build/*.cmake
+
+!build/CMakeLists.txt
+!build/*.bat
 .cmake/
 out/
 CMakeCache.txt
@@ -32,3 +42,7 @@ bin/
 Thumbs.db
 *.log
 *.tmp
+
+*.vcxproj
+*.vcxproj.filters
+*.sln
