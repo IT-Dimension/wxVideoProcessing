@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Admin\IFloor\projects\wxVideoProcessing\CommonPluginBase\Win\CMakeFiles\CommonPluginBase.dir\cmake_pch.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Admin\IFloor\projects\wxVideoProcessing\CommonPluginBase\CommonConfigWindowBase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Admin\IFloor\projects\wxVideoProcessing\CommonPluginBase\SerializableBase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Admin\IFloor\projects\wxVideoProcessing\include\stdwx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Admin\IFloor\projects\wxVideoProcessing\CommonPluginBase\CommonConfigWindowBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Admin\IFloor\projects\wxVideoProcessing\CommonPluginBase\SerializableBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Admin\IFloor\projects\wxVideoProcessing\CommonPluginBase\CommonPlugin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Admin\IFloor\projects\wxVideoProcessing\include\stdwx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Admin\IFloor\projects\wxVideoProcessing\CommonPluginBase\Win\CMakeFiles\CommonPluginBase.dir\Debug\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Admin\IFloor\projects\wxVideoProcessing\CommonPluginBase\Win\CMakeFiles\CommonPluginBase.dir\Release\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Admin\IFloor\projects\wxVideoProcessing\CommonPluginBase\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{4951AEE1-75F2-3C38-B593-C6BC8C809FB0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Precompile Header File">
+      <UniqueIdentifier>{112D4227-BB51-3360-BB5B-5EA5DBA5A65F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{05450AB2-CB7B-34EA-83DF-1EE86424EDF0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

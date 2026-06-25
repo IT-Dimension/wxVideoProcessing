@@ -1,0 +1,175 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AIHTEST_H	AIHTest.h	10;"	d
+AIHTest	AIHTest.cpp	/^AIHTest::AIHTest()$/;"	f	class:AIHTest	signature:()
+AIHTest	AIHTest.h	/^    AIHTest();$/;"	p	class:AIHTest	access:public	signature:()
+AIHTest	AIHTest.h	/^class AIHTest : public wxApp {$/;"	c	inherits:wxApp
+AIHTest::AIHTest	AIHTest.cpp	/^AIHTest::AIHTest()$/;"	f	class:AIHTest	signature:()
+AIHTest::AIHTest	AIHTest.h	/^    AIHTest();$/;"	p	class:AIHTest	access:public	signature:()
+AIHTest::OnExit	AIHTest.cpp	/^int AIHTest::OnExit()$/;"	f	class:AIHTest	signature:()
+AIHTest::OnExit	AIHTest.h	/^    int OnExit();$/;"	p	class:AIHTest	access:public	signature:()
+AIHTest::OnInit	AIHTest.cpp	/^bool AIHTest::OnInit()$/;"	f	class:AIHTest	signature:()
+AIHTest::OnInit	AIHTest.h	/^    bool OnInit();$/;"	p	class:AIHTest	access:public	signature:()
+AIHTest::~AIHTest	AIHTest.cpp	/^AIHTest::~AIHTest()$/;"	f	class:AIHTest	signature:()
+AIHTest::~AIHTest	AIHTest.h	/^    virtual ~AIHTest();$/;"	p	class:AIHTest	access:public	signature:()
+AIHTestFrame	AIHTest.cpp	/^AIHTestFrame::AIHTestFrame(wxWindow* parent, wxWindowID id, const wxString& title)$/;"	f	class:AIHTestFrame	signature:(wxWindow* parent, wxWindowID id, const wxString& title)
+AIHTestFrame	AIHTest.h	/^    AIHTestFrame(wxWindow * parent, wxWindowID id = wxID_ANY, const wxString& title = wxEmptyString);$/;"	p	class:AIHTestFrame	access:public	signature:(wxWindow * parent, wxWindowID id = wxID_ANY, const wxString& title = wxEmptyString)
+AIHTestFrame	AIHTest.h	/^class AIHTestFrame : public wxFrame {$/;"	c	inherits:wxFrame
+AIHTestFrame::AIHTestFrame	AIHTest.cpp	/^AIHTestFrame::AIHTestFrame(wxWindow* parent, wxWindowID id, const wxString& title)$/;"	f	class:AIHTestFrame	signature:(wxWindow* parent, wxWindowID id, const wxString& title)
+AIHTestFrame::AIHTestFrame	AIHTest.h	/^    AIHTestFrame(wxWindow * parent, wxWindowID id = wxID_ANY, const wxString& title = wxEmptyString);$/;"	p	class:AIHTestFrame	access:public	signature:(wxWindow * parent, wxWindowID id = wxID_ANY, const wxString& title = wxEmptyString)
+AIHTestFrame::CreateMenu	AIHTest.cpp	/^wxMenu* AIHTestFrame::CreateMenu()$/;"	f	class:AIHTestFrame	signature:()
+AIHTestFrame::CreateMenu	AIHTest.h	/^    wxMenu * CreateMenu();$/;"	p	class:AIHTestFrame	access:private	signature:()
+AIHTestFrame::DeleteMenu	AIHTest.cpp	/^void AIHTestFrame::DeleteMenu(wxMouseEvent& evt)$/;"	f	class:AIHTestFrame	signature:(wxMouseEvent& evt)
+AIHTestFrame::DeleteMenu	AIHTest.h	/^    void DeleteMenu(wxMouseEvent& evt);$/;"	p	class:AIHTestFrame	access:private	signature:(wxMouseEvent& evt)
+AIHTestFrame::OnIdle	AIHTest.cpp	/^void AIHTestFrame::OnIdle(wxIdleEvent& evt)$/;"	f	class:AIHTestFrame	signature:(wxIdleEvent& evt)
+AIHTestFrame::OnIdle	AIHTest.h	/^    void OnIdle(wxIdleEvent& evt);$/;"	p	class:AIHTestFrame	access:private	signature:(wxIdleEvent& evt)
+AIHTestFrame::OnMenuItemClick	AIHTest.cpp	/^void AIHTestFrame::OnMenuItemClick(wxCommandEvent& evt)$/;"	f	class:AIHTestFrame	signature:(wxCommandEvent& evt)
+AIHTestFrame::OnMenuItemClick	AIHTest.h	/^    void OnMenuItemClick(wxCommandEvent& evt);$/;"	p	class:AIHTestFrame	access:private	signature:(wxCommandEvent& evt)
+AIHTestFrame::ShowMenu	AIHTest.cpp	/^void AIHTestFrame::ShowMenu(wxMouseEvent& evt)$/;"	f	class:AIHTestFrame	signature:(wxMouseEvent& evt)
+AIHTestFrame::ShowMenu	AIHTest.h	/^    void ShowMenu(wxMouseEvent& evt);$/;"	p	class:AIHTestFrame	access:private	signature:(wxMouseEvent& evt)
+AIHTestFrame::m_indicator	AIHTest.h	/^    AppIndicatorHelper * m_indicator;$/;"	m	class:AIHTestFrame	access:private
+AIHTestFrame::m_itemID	AIHTest.h	/^    long m_itemID;$/;"	m	class:AIHTestFrame	access:private
+AIHTestFrame::m_mainMenu	AIHTest.h	/^    wxMenu * m_mainMenu;$/;"	m	class:AIHTestFrame	access:private
+AIHTestFrame::m_removedMenu	AIHTest.h	/^    wxMenu * m_removedMenu;$/;"	m	class:AIHTestFrame	access:private
+AIHTestFrame::m_subID	AIHTest.h	/^    long m_subID;$/;"	m	class:AIHTestFrame	access:private
+AIHTestFrame::~AIHTestFrame	AIHTest.cpp	/^AIHTestFrame::~AIHTestFrame()$/;"	f	class:AIHTestFrame	signature:()
+AIHTestFrame::~AIHTestFrame	AIHTest.h	/^    virtual ~AIHTestFrame();$/;"	p	class:AIHTestFrame	access:public	signature:()
+APPINDICATORHELPER_H	appindic.h	12;"	d
+AppIndicatorHelper	appindic.cpp	/^AppIndicatorHelper::AppIndicatorHelper()$/;"	f	class:AppIndicatorHelper	signature:()
+AppIndicatorHelper	appindic.cpp	/^AppIndicatorHelper::AppIndicatorHelper(const wxString& id, const wxString& iconFullFilePath, AppIndicatorCategory category)$/;"	f	class:AppIndicatorHelper	signature:(const wxString& id, const wxString& iconFullFilePath, AppIndicatorCategory category)
+AppIndicatorHelper	appindic.cpp	/^AppIndicatorHelper::AppIndicatorHelper(const wxString& id,$/;"	f	class:AppIndicatorHelper	signature:(const wxString& id, const wxString& iconFileName, const wxString& iconDirPath, AppIndicatorCategory category)
+AppIndicatorHelper	appindic.h	/^    AppIndicatorHelper();$/;"	p	class:AppIndicatorHelper	access:public	signature:()
+AppIndicatorHelper	appindic.h	/^    AppIndicatorHelper(const wxString& id,$/;"	p	class:AppIndicatorHelper	access:public	signature:(const wxString& id, const wxString& iconFileName, const wxString& iconDirPath, AppIndicatorCategory category)
+AppIndicatorHelper	appindic.h	/^    AppIndicatorHelper(const wxString& id,$/;"	p	class:AppIndicatorHelper	access:public	signature:(const wxString& id, const wxString& iconFullFilePath, AppIndicatorCategory category)
+AppIndicatorHelper	appindic.h	/^class AppIndicatorHelper : public wxObject {$/;"	c	inherits:wxObject
+AppIndicatorHelper::AppIndicatorHelper	appindic.cpp	/^AppIndicatorHelper::AppIndicatorHelper()$/;"	f	class:AppIndicatorHelper	signature:()
+AppIndicatorHelper::AppIndicatorHelper	appindic.cpp	/^AppIndicatorHelper::AppIndicatorHelper(const wxString& id, const wxString& iconFullFilePath, AppIndicatorCategory category)$/;"	f	class:AppIndicatorHelper	signature:(const wxString& id, const wxString& iconFullFilePath, AppIndicatorCategory category)
+AppIndicatorHelper::AppIndicatorHelper	appindic.cpp	/^AppIndicatorHelper::AppIndicatorHelper(const wxString& id,$/;"	f	class:AppIndicatorHelper	signature:(const wxString& id, const wxString& iconFileName, const wxString& iconDirPath, AppIndicatorCategory category)
+AppIndicatorHelper::AppIndicatorHelper	appindic.h	/^    AppIndicatorHelper();$/;"	p	class:AppIndicatorHelper	access:public	signature:()
+AppIndicatorHelper::AppIndicatorHelper	appindic.h	/^    AppIndicatorHelper(const wxString& id,$/;"	p	class:AppIndicatorHelper	access:public	signature:(const wxString& id, const wxString& iconFileName, const wxString& iconDirPath, AppIndicatorCategory category)
+AppIndicatorHelper::AppIndicatorHelper	appindic.h	/^    AppIndicatorHelper(const wxString& id,$/;"	p	class:AppIndicatorHelper	access:public	signature:(const wxString& id, const wxString& iconFullFilePath, AppIndicatorCategory category)
+AppIndicatorHelper::DECLARE_DYNAMIC_CLASS	appindic.h	/^    DECLARE_DYNAMIC_CLASS(AppIndicatorHelper);$/;"	p	class:AppIndicatorHelper	access:private	signature:(AppIndicatorHelper)
+AppIndicatorHelper::GetAttentionIcon	appindic.cpp	/^const wxString AppIndicatorHelper::GetAttentionIcon() const$/;"	f	class:AppIndicatorHelper	signature:() const
+AppIndicatorHelper::GetAttentionIcon	appindic.h	/^    const wxString GetAttentionIcon() const;$/;"	p	class:AppIndicatorHelper	access:public	signature:() const
+AppIndicatorHelper::GetAttentionIconDesc	appindic.cpp	/^const wxString AppIndicatorHelper::GetAttentionIconDesc() const$/;"	f	class:AppIndicatorHelper	signature:() const
+AppIndicatorHelper::GetAttentionIconDesc	appindic.h	/^    const wxString GetAttentionIconDesc() const;$/;"	p	class:AppIndicatorHelper	access:public	signature:() const
+AppIndicatorHelper::GetCategory	appindic.cpp	/^const AppIndicatorCategory AppIndicatorHelper::GetCategory() const$/;"	f	class:AppIndicatorHelper	signature:() const
+AppIndicatorHelper::GetCategory	appindic.h	/^    const AppIndicatorCategory GetCategory() const;$/;"	p	class:AppIndicatorHelper	access:public	signature:() const
+AppIndicatorHelper::GetIcon	appindic.cpp	/^const wxString AppIndicatorHelper::GetIcon() const$/;"	f	class:AppIndicatorHelper	signature:() const
+AppIndicatorHelper::GetIcon	appindic.h	/^    const wxString GetIcon() const;$/;"	p	class:AppIndicatorHelper	access:public	signature:() const
+AppIndicatorHelper::GetIconDesc	appindic.cpp	/^const wxString AppIndicatorHelper::GetIconDesc() const$/;"	f	class:AppIndicatorHelper	signature:() const
+AppIndicatorHelper::GetIconDesc	appindic.h	/^    const wxString GetIconDesc() const;$/;"	p	class:AppIndicatorHelper	access:public	signature:() const
+AppIndicatorHelper::GetIconDir	appindic.cpp	/^const wxString AppIndicatorHelper::GetIconDir() const$/;"	f	class:AppIndicatorHelper	signature:() const
+AppIndicatorHelper::GetIconDir	appindic.h	/^    const wxString GetIconDir() const;$/;"	p	class:AppIndicatorHelper	access:public	signature:() const
+AppIndicatorHelper::GetId	appindic.cpp	/^const wxString AppIndicatorHelper::GetId() const$/;"	f	class:AppIndicatorHelper	signature:() const
+AppIndicatorHelper::GetId	appindic.h	/^    const wxString GetId() const;$/;"	p	class:AppIndicatorHelper	access:public	signature:() const
+AppIndicatorHelper::GetLabel	appindic.cpp	/^const wxString AppIndicatorHelper::GetLabel() const$/;"	f	class:AppIndicatorHelper	signature:() const
+AppIndicatorHelper::GetLabel	appindic.h	/^    const wxString GetLabel() const;$/;"	p	class:AppIndicatorHelper	access:public	signature:() const
+AppIndicatorHelper::GetLabelGuide	appindic.cpp	/^const wxString AppIndicatorHelper::GetLabelGuide() const$/;"	f	class:AppIndicatorHelper	signature:() const
+AppIndicatorHelper::GetLabelGuide	appindic.h	/^    const wxString GetLabelGuide()const;$/;"	p	class:AppIndicatorHelper	access:public	signature:() const
+AppIndicatorHelper::GetOrderingIndex	appindic.cpp	/^const uint AppIndicatorHelper::GetOrderingIndex() const$/;"	f	class:AppIndicatorHelper	signature:() const
+AppIndicatorHelper::GetOrderingIndex	appindic.h	/^    const uint GetOrderingIndex() const;$/;"	p	class:AppIndicatorHelper	access:public	signature:() const
+AppIndicatorHelper::GetStatus	appindic.cpp	/^const AppIndicatorStatus AppIndicatorHelper::GetStatus() const$/;"	f	class:AppIndicatorHelper	signature:() const
+AppIndicatorHelper::GetStatus	appindic.h	/^    const AppIndicatorStatus GetStatus() const;$/;"	p	class:AppIndicatorHelper	access:public	signature:() const
+AppIndicatorHelper::GetTitle	appindic.cpp	/^const wxString AppIndicatorHelper::GetTitle() const$/;"	f	class:AppIndicatorHelper	signature:() const
+AppIndicatorHelper::GetTitle	appindic.h	/^    const wxString GetTitle() const;$/;"	p	class:AppIndicatorHelper	access:public	signature:() const
+AppIndicatorHelper::SetAttentionIcon	appindic.cpp	/^void AppIndicatorHelper::SetAttentionIcon(const wxString& iconFileName)$/;"	f	class:AppIndicatorHelper	signature:(const wxString& iconFileName)
+AppIndicatorHelper::SetAttentionIcon	appindic.h	/^    void SetAttentionIcon(const wxString& iconFileName);$/;"	p	class:AppIndicatorHelper	access:public	signature:(const wxString& iconFileName)
+AppIndicatorHelper::SetAttentionIconFull	appindic.cpp	/^void AppIndicatorHelper::SetAttentionIconFull(const wxString& iconFileName, const wxString& iconDesc)$/;"	f	class:AppIndicatorHelper	signature:(const wxString& iconFileName, const wxString& iconDesc)
+AppIndicatorHelper::SetAttentionIconFull	appindic.h	/^    void SetAttentionIconFull(const wxString& iconFileName, const wxString& iconDesc);$/;"	p	class:AppIndicatorHelper	access:public	signature:(const wxString& iconFileName, const wxString& iconDesc)
+AppIndicatorHelper::SetIcon	appindic.cpp	/^void AppIndicatorHelper::SetIcon(const wxString& iconFileName)$/;"	f	class:AppIndicatorHelper	signature:(const wxString& iconFileName)
+AppIndicatorHelper::SetIcon	appindic.h	/^    void SetIcon(const wxString& iconFileName);$/;"	p	class:AppIndicatorHelper	access:public	signature:(const wxString& iconFileName)
+AppIndicatorHelper::SetIconDir	appindic.cpp	/^void AppIndicatorHelper::SetIconDir(const wxString& iconDir)$/;"	f	class:AppIndicatorHelper	signature:(const wxString& iconDir)
+AppIndicatorHelper::SetIconDir	appindic.h	/^    void SetIconDir(const wxString& iconDir);$/;"	p	class:AppIndicatorHelper	access:public	signature:(const wxString& iconDir)
+AppIndicatorHelper::SetIconFull	appindic.cpp	/^void AppIndicatorHelper::SetIconFull(const wxString& iconFileName, const wxString& iconDesc)$/;"	f	class:AppIndicatorHelper	signature:(const wxString& iconFileName, const wxString& iconDesc)
+AppIndicatorHelper::SetIconFull	appindic.h	/^    void SetIconFull(const wxString& iconFileName, const wxString& iconDesc);$/;"	p	class:AppIndicatorHelper	access:public	signature:(const wxString& iconFileName, const wxString& iconDesc)
+AppIndicatorHelper::SetLabel	appindic.cpp	/^void AppIndicatorHelper::SetLabel(const wxString& label, const wxString& guide)$/;"	f	class:AppIndicatorHelper	signature:(const wxString& label, const wxString& guide)
+AppIndicatorHelper::SetLabel	appindic.h	/^    void SetLabel(const wxString& label, const wxString& guide);$/;"	p	class:AppIndicatorHelper	access:public	signature:(const wxString& label, const wxString& guide)
+AppIndicatorHelper::SetMenu	appindic.cpp	/^void AppIndicatorHelper::SetMenu(wxMenu * appMenu)$/;"	f	class:AppIndicatorHelper	signature:(wxMenu * appMenu)
+AppIndicatorHelper::SetMenu	appindic.h	/^    void SetMenu(wxMenu * appMenu);$/;"	p	class:AppIndicatorHelper	access:public	signature:(wxMenu * appMenu)
+AppIndicatorHelper::SetOrderingIndex	appindic.cpp	/^void AppIndicatorHelper::SetOrderingIndex(uint orderingIndex)$/;"	f	class:AppIndicatorHelper	signature:(uint orderingIndex)
+AppIndicatorHelper::SetOrderingIndex	appindic.h	/^    void SetOrderingIndex(uint orderingIndex);$/;"	p	class:AppIndicatorHelper	access:public	signature:(uint orderingIndex)
+AppIndicatorHelper::SetStatus	appindic.cpp	/^void AppIndicatorHelper::SetStatus(AppIndicatorStatus status)$/;"	f	class:AppIndicatorHelper	signature:(AppIndicatorStatus status)
+AppIndicatorHelper::SetStatus	appindic.h	/^    void SetStatus(AppIndicatorStatus status);$/;"	p	class:AppIndicatorHelper	access:public	signature:(AppIndicatorStatus status)
+AppIndicatorHelper::SetTitle	appindic.cpp	/^void AppIndicatorHelper::SetTitle(const wxString& title)$/;"	f	class:AppIndicatorHelper	signature:(const wxString& title)
+AppIndicatorHelper::SetTitle	appindic.h	/^    void SetTitle(const wxString& title);$/;"	p	class:AppIndicatorHelper	access:public	signature:(const wxString& title)
+AppIndicatorHelper::m_appMenu	appindic.h	/^    wxWeakRef<wxMenu> m_appMenu;$/;"	m	class:AppIndicatorHelper	access:private
+AppIndicatorHelper::m_indicator	appindic.h	/^    AppIndicator * m_indicator;$/;"	m	class:AppIndicatorHelper	access:private
+AppIndicatorHelper::~AppIndicatorHelper	appindic.cpp	/^AppIndicatorHelper::~AppIndicatorHelper()$/;"	f	class:AppIndicatorHelper	signature:()
+AppIndicatorHelper::~AppIndicatorHelper	appindic.h	/^    virtual ~AppIndicatorHelper();$/;"	p	class:AppIndicatorHelper	access:public	signature:()
+CreateMenu	AIHTest.cpp	/^wxMenu* AIHTestFrame::CreateMenu()$/;"	f	class:AIHTestFrame	signature:()
+CreateMenu	AIHTest.h	/^    wxMenu * CreateMenu();$/;"	p	class:AIHTestFrame	access:private	signature:()
+DECLARE_DYNAMIC_CLASS	appindic.h	/^    DECLARE_DYNAMIC_CLASS(AppIndicatorHelper);$/;"	p	class:AppIndicatorHelper	access:private	signature:(AppIndicatorHelper)
+DeleteMenu	AIHTest.cpp	/^void AIHTestFrame::DeleteMenu(wxMouseEvent& evt)$/;"	f	class:AIHTestFrame	signature:(wxMouseEvent& evt)
+DeleteMenu	AIHTest.h	/^    void DeleteMenu(wxMouseEvent& evt);$/;"	p	class:AIHTestFrame	access:private	signature:(wxMouseEvent& evt)
+GetAttentionIcon	appindic.cpp	/^const wxString AppIndicatorHelper::GetAttentionIcon() const$/;"	f	class:AppIndicatorHelper	signature:() const
+GetAttentionIcon	appindic.h	/^    const wxString GetAttentionIcon() const;$/;"	p	class:AppIndicatorHelper	access:public	signature:() const
+GetAttentionIconDesc	appindic.cpp	/^const wxString AppIndicatorHelper::GetAttentionIconDesc() const$/;"	f	class:AppIndicatorHelper	signature:() const
+GetAttentionIconDesc	appindic.h	/^    const wxString GetAttentionIconDesc() const;$/;"	p	class:AppIndicatorHelper	access:public	signature:() const
+GetCategory	appindic.cpp	/^const AppIndicatorCategory AppIndicatorHelper::GetCategory() const$/;"	f	class:AppIndicatorHelper	signature:() const
+GetCategory	appindic.h	/^    const AppIndicatorCategory GetCategory() const;$/;"	p	class:AppIndicatorHelper	access:public	signature:() const
+GetIcon	appindic.cpp	/^const wxString AppIndicatorHelper::GetIcon() const$/;"	f	class:AppIndicatorHelper	signature:() const
+GetIcon	appindic.h	/^    const wxString GetIcon() const;$/;"	p	class:AppIndicatorHelper	access:public	signature:() const
+GetIconDesc	appindic.cpp	/^const wxString AppIndicatorHelper::GetIconDesc() const$/;"	f	class:AppIndicatorHelper	signature:() const
+GetIconDesc	appindic.h	/^    const wxString GetIconDesc() const;$/;"	p	class:AppIndicatorHelper	access:public	signature:() const
+GetIconDir	appindic.cpp	/^const wxString AppIndicatorHelper::GetIconDir() const$/;"	f	class:AppIndicatorHelper	signature:() const
+GetIconDir	appindic.h	/^    const wxString GetIconDir() const;$/;"	p	class:AppIndicatorHelper	access:public	signature:() const
+GetId	appindic.cpp	/^const wxString AppIndicatorHelper::GetId() const$/;"	f	class:AppIndicatorHelper	signature:() const
+GetId	appindic.h	/^    const wxString GetId() const;$/;"	p	class:AppIndicatorHelper	access:public	signature:() const
+GetLabel	appindic.cpp	/^const wxString AppIndicatorHelper::GetLabel() const$/;"	f	class:AppIndicatorHelper	signature:() const
+GetLabel	appindic.h	/^    const wxString GetLabel() const;$/;"	p	class:AppIndicatorHelper	access:public	signature:() const
+GetLabelGuide	appindic.cpp	/^const wxString AppIndicatorHelper::GetLabelGuide() const$/;"	f	class:AppIndicatorHelper	signature:() const
+GetLabelGuide	appindic.h	/^    const wxString GetLabelGuide()const;$/;"	p	class:AppIndicatorHelper	access:public	signature:() const
+GetOrderingIndex	appindic.cpp	/^const uint AppIndicatorHelper::GetOrderingIndex() const$/;"	f	class:AppIndicatorHelper	signature:() const
+GetOrderingIndex	appindic.h	/^    const uint GetOrderingIndex() const;$/;"	p	class:AppIndicatorHelper	access:public	signature:() const
+GetStatus	appindic.cpp	/^const AppIndicatorStatus AppIndicatorHelper::GetStatus() const$/;"	f	class:AppIndicatorHelper	signature:() const
+GetStatus	appindic.h	/^    const AppIndicatorStatus GetStatus() const;$/;"	p	class:AppIndicatorHelper	access:public	signature:() const
+GetTitle	appindic.cpp	/^const wxString AppIndicatorHelper::GetTitle() const$/;"	f	class:AppIndicatorHelper	signature:() const
+GetTitle	appindic.h	/^    const wxString GetTitle() const;$/;"	p	class:AppIndicatorHelper	access:public	signature:() const
+OnExit	AIHTest.cpp	/^int AIHTest::OnExit()$/;"	f	class:AIHTest	signature:()
+OnExit	AIHTest.h	/^    int OnExit();$/;"	p	class:AIHTest	access:public	signature:()
+OnIdle	AIHTest.cpp	/^void AIHTestFrame::OnIdle(wxIdleEvent& evt)$/;"	f	class:AIHTestFrame	signature:(wxIdleEvent& evt)
+OnIdle	AIHTest.h	/^    void OnIdle(wxIdleEvent& evt);$/;"	p	class:AIHTestFrame	access:private	signature:(wxIdleEvent& evt)
+OnInit	AIHTest.cpp	/^bool AIHTest::OnInit()$/;"	f	class:AIHTest	signature:()
+OnInit	AIHTest.h	/^    bool OnInit();$/;"	p	class:AIHTest	access:public	signature:()
+OnMenuItemClick	AIHTest.cpp	/^void AIHTestFrame::OnMenuItemClick(wxCommandEvent& evt)$/;"	f	class:AIHTestFrame	signature:(wxCommandEvent& evt)
+OnMenuItemClick	AIHTest.h	/^    void OnMenuItemClick(wxCommandEvent& evt);$/;"	p	class:AIHTestFrame	access:private	signature:(wxCommandEvent& evt)
+SetAttentionIcon	appindic.cpp	/^void AppIndicatorHelper::SetAttentionIcon(const wxString& iconFileName)$/;"	f	class:AppIndicatorHelper	signature:(const wxString& iconFileName)
+SetAttentionIcon	appindic.h	/^    void SetAttentionIcon(const wxString& iconFileName);$/;"	p	class:AppIndicatorHelper	access:public	signature:(const wxString& iconFileName)
+SetAttentionIconFull	appindic.cpp	/^void AppIndicatorHelper::SetAttentionIconFull(const wxString& iconFileName, const wxString& iconDesc)$/;"	f	class:AppIndicatorHelper	signature:(const wxString& iconFileName, const wxString& iconDesc)
+SetAttentionIconFull	appindic.h	/^    void SetAttentionIconFull(const wxString& iconFileName, const wxString& iconDesc);$/;"	p	class:AppIndicatorHelper	access:public	signature:(const wxString& iconFileName, const wxString& iconDesc)
+SetIcon	appindic.cpp	/^void AppIndicatorHelper::SetIcon(const wxString& iconFileName)$/;"	f	class:AppIndicatorHelper	signature:(const wxString& iconFileName)
+SetIcon	appindic.h	/^    void SetIcon(const wxString& iconFileName);$/;"	p	class:AppIndicatorHelper	access:public	signature:(const wxString& iconFileName)
+SetIconDir	appindic.cpp	/^void AppIndicatorHelper::SetIconDir(const wxString& iconDir)$/;"	f	class:AppIndicatorHelper	signature:(const wxString& iconDir)
+SetIconDir	appindic.h	/^    void SetIconDir(const wxString& iconDir);$/;"	p	class:AppIndicatorHelper	access:public	signature:(const wxString& iconDir)
+SetIconFull	appindic.cpp	/^void AppIndicatorHelper::SetIconFull(const wxString& iconFileName, const wxString& iconDesc)$/;"	f	class:AppIndicatorHelper	signature:(const wxString& iconFileName, const wxString& iconDesc)
+SetIconFull	appindic.h	/^    void SetIconFull(const wxString& iconFileName, const wxString& iconDesc);$/;"	p	class:AppIndicatorHelper	access:public	signature:(const wxString& iconFileName, const wxString& iconDesc)
+SetLabel	appindic.cpp	/^void AppIndicatorHelper::SetLabel(const wxString& label, const wxString& guide)$/;"	f	class:AppIndicatorHelper	signature:(const wxString& label, const wxString& guide)
+SetLabel	appindic.h	/^    void SetLabel(const wxString& label, const wxString& guide);$/;"	p	class:AppIndicatorHelper	access:public	signature:(const wxString& label, const wxString& guide)
+SetMenu	appindic.cpp	/^void AppIndicatorHelper::SetMenu(wxMenu * appMenu)$/;"	f	class:AppIndicatorHelper	signature:(wxMenu * appMenu)
+SetMenu	appindic.h	/^    void SetMenu(wxMenu * appMenu);$/;"	p	class:AppIndicatorHelper	access:public	signature:(wxMenu * appMenu)
+SetOrderingIndex	appindic.cpp	/^void AppIndicatorHelper::SetOrderingIndex(uint orderingIndex)$/;"	f	class:AppIndicatorHelper	signature:(uint orderingIndex)
+SetOrderingIndex	appindic.h	/^    void SetOrderingIndex(uint orderingIndex);$/;"	p	class:AppIndicatorHelper	access:public	signature:(uint orderingIndex)
+SetStatus	appindic.cpp	/^void AppIndicatorHelper::SetStatus(AppIndicatorStatus status)$/;"	f	class:AppIndicatorHelper	signature:(AppIndicatorStatus status)
+SetStatus	appindic.h	/^    void SetStatus(AppIndicatorStatus status);$/;"	p	class:AppIndicatorHelper	access:public	signature:(AppIndicatorStatus status)
+SetTitle	appindic.cpp	/^void AppIndicatorHelper::SetTitle(const wxString& title)$/;"	f	class:AppIndicatorHelper	signature:(const wxString& title)
+SetTitle	appindic.h	/^    void SetTitle(const wxString& title);$/;"	p	class:AppIndicatorHelper	access:public	signature:(const wxString& title)
+ShowMenu	AIHTest.cpp	/^void AIHTestFrame::ShowMenu(wxMouseEvent& evt)$/;"	f	class:AIHTestFrame	signature:(wxMouseEvent& evt)
+ShowMenu	AIHTest.h	/^    void ShowMenu(wxMouseEvent& evt);$/;"	p	class:AIHTestFrame	access:private	signature:(wxMouseEvent& evt)
+m_appMenu	appindic.h	/^    wxWeakRef<wxMenu> m_appMenu;$/;"	m	class:AppIndicatorHelper	access:private
+m_indicator	AIHTest.h	/^    AppIndicatorHelper * m_indicator;$/;"	m	class:AIHTestFrame	access:private
+m_indicator	appindic.h	/^    AppIndicator * m_indicator;$/;"	m	class:AppIndicatorHelper	access:private
+m_itemID	AIHTest.h	/^    long m_itemID;$/;"	m	class:AIHTestFrame	access:private
+m_mainMenu	AIHTest.h	/^    wxMenu * m_mainMenu;$/;"	m	class:AIHTestFrame	access:private
+m_removedMenu	AIHTest.h	/^    wxMenu * m_removedMenu;$/;"	m	class:AIHTestFrame	access:private
+m_subID	AIHTest.h	/^    long m_subID;$/;"	m	class:AIHTestFrame	access:private
+~AIHTest	AIHTest.cpp	/^AIHTest::~AIHTest()$/;"	f	class:AIHTest	signature:()
+~AIHTest	AIHTest.h	/^    virtual ~AIHTest();$/;"	p	class:AIHTest	access:public	signature:()
+~AIHTestFrame	AIHTest.cpp	/^AIHTestFrame::~AIHTestFrame()$/;"	f	class:AIHTestFrame	signature:()
+~AIHTestFrame	AIHTest.h	/^    virtual ~AIHTestFrame();$/;"	p	class:AIHTestFrame	access:public	signature:()
+~AppIndicatorHelper	appindic.cpp	/^AppIndicatorHelper::~AppIndicatorHelper()$/;"	f	class:AppIndicatorHelper	signature:()
+~AppIndicatorHelper	appindic.h	/^    virtual ~AppIndicatorHelper();$/;"	p	class:AppIndicatorHelper	access:public	signature:()

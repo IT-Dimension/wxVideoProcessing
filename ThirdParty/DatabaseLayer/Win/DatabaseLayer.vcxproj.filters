@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="F:\IT-Dim\trunk\ThirdParty\DatabaseLayer\src\DatabaseErrorReporter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\IT-Dim\trunk\ThirdParty\DatabaseLayer\src\DatabaseLayer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\IT-Dim\trunk\ThirdParty\DatabaseLayer\src\DatabaseQueryParser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\IT-Dim\trunk\ThirdParty\DatabaseLayer\src\DatabaseResultSet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\IT-Dim\trunk\ThirdParty\DatabaseLayer\src\DatabaseStringConverter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\IT-Dim\trunk\ThirdParty\DatabaseLayer\src\PreparedStatement.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\IT-Dim\trunk\ThirdParty\DatabaseLayer\src\SqliteDatabaseLayer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\IT-Dim\trunk\ThirdParty\DatabaseLayer\src\SqlitePreparedStatement.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\IT-Dim\trunk\ThirdParty\DatabaseLayer\src\SqliteResultSet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\IT-Dim\trunk\ThirdParty\DatabaseLayer\src\SqliteResultSetMetaData.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\IT-Dim\trunk\ThirdParty\DatabaseLayer\sqlite3\sqlite3.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="F:\IT-Dim\trunk\ThirdParty\DatabaseLayer\include\DatabaseErrorCodes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\IT-Dim\trunk\ThirdParty\DatabaseLayer\include\DatabaseErrorReporter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\IT-Dim\trunk\ThirdParty\DatabaseLayer\include\DatabaseLayer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\IT-Dim\trunk\ThirdParty\DatabaseLayer\include\DatabaseLayerDef.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\IT-Dim\trunk\ThirdParty\DatabaseLayer\include\DatabaseLayerException.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\IT-Dim\trunk\ThirdParty\DatabaseLayer\include\DatabaseQueryParser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\IT-Dim\trunk\ThirdParty\DatabaseLayer\include\DatabaseResultSet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\IT-Dim\trunk\ThirdParty\DatabaseLayer\include\DatabaseStringConverter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\IT-Dim\trunk\ThirdParty\DatabaseLayer\include\PreparedStatement.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\IT-Dim\trunk\ThirdParty\DatabaseLayer\include\ResultSetMetaData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\IT-Dim\trunk\ThirdParty\DatabaseLayer\include\SqliteDatabaseLayer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\IT-Dim\trunk\ThirdParty\DatabaseLayer\include\SqlitePreparedStatement.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\IT-Dim\trunk\ThirdParty\DatabaseLayer\include\SqliteResultSet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\IT-Dim\trunk\ThirdParty\DatabaseLayer\include\SqliteResultSetMetaData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{51D244FA-C21C-3174-8217-FDB3769212C0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{A07A887B-0B8A-3ED7-BD7F-43C26975F88D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

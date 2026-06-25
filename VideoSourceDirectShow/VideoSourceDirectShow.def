@@ -1,0 +1,5 @@
+LIBRARY	"VideoSourceDirectShow"
+
+EXPORTS
+	CreatePlugin=CreatePlugin
+	DeletePlugin=DeletePlugin

@@ -1,0 +1,273 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Admin\IFloor\projects\wxVideoProcessing\MotionDetectorCore\Win\CMakeFiles\MotionDetectorCore.dir\cmake_pch.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Admin\IFloor\projects\wxVideoProcessing\MotionDetectorCore\FilterPreviewWindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Admin\IFloor\projects\wxVideoProcessing\MotionDetectorCore\AmplifyFilter.cpp">
+      <Filter>Filters\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Admin\IFloor\projects\wxVideoProcessing\MotionDetectorCore\BackgroundFilter.cpp">
+      <Filter>Filters\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Admin\IFloor\projects\wxVideoProcessing\MotionDetectorCore\BarrelDistortionCorrectionFilter.cpp">
+      <Filter>Filters\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Admin\IFloor\projects\wxVideoProcessing\MotionDetectorCore\BrightnessContrastFilter.cpp">
+      <Filter>Filters\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Admin\IFloor\projects\wxVideoProcessing\MotionDetectorCore\ContourFinder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Admin\IFloor\projects\wxVideoProcessing\MotionDetectorCore\CropFilter.cpp">
+      <Filter>Filters\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Admin\IFloor\projects\wxVideoProcessing\MotionDetectorCore\DummyFilter.cpp">
+      <Filter>Filters\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Admin\IFloor\projects\wxVideoProcessing\MotionDetectorCore\DynamicBGFilter.cpp">
+      <Filter>Filters\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Admin\IFloor\projects\wxVideoProcessing\MotionDetectorCore\EqualizeHistFilter.cpp">
+      <Filter>Filters\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Admin\IFloor\projects\wxVideoProcessing\MotionDetectorCore\FilterFactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Admin\IFloor\projects\wxVideoProcessing\MotionDetectorCore\FilterTemplate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Admin\IFloor\projects\wxVideoProcessing\MotionDetectorCore\FlipFilter.cpp">
+      <Filter>Filters\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Admin\IFloor\projects\wxVideoProcessing\MotionDetectorCore\HighpassFilter.cpp">
+      <Filter>Filters\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Admin\IFloor\projects\wxVideoProcessing\MotionDetectorCore\IFloorImagePreprocessor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Admin\IFloor\projects\wxVideoProcessing\MotionDetectorCore\IFloorImagePreprocessorSettings.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Admin\IFloor\projects\wxVideoProcessing\MotionDetectorCore\InvertFilter.cpp">
+      <Filter>Filters\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Admin\IFloor\projects\wxVideoProcessing\MotionDetectorCore\MonoFilter.cpp">
+      <Filter>Filters\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Admin\IFloor\projects\wxVideoProcessing\MotionDetectorCore\PerspectiveFilter.cpp">
+      <Filter>Filters\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Admin\IFloor\projects\wxVideoProcessing\MotionDetectorCore\RectifyFilter.cpp">
+      <Filter>Filters\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Admin\IFloor\projects\wxVideoProcessing\MotionDetectorCore\ResizeFilter.cpp">
+      <Filter>Filters\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Admin\IFloor\projects\wxVideoProcessing\MotionDetectorCore\ScalerFilter.cpp">
+      <Filter>Filters\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Admin\IFloor\projects\wxVideoProcessing\MotionDetectorCore\ShapeFilter.cpp">
+      <Filter>Filters\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Admin\IFloor\projects\wxVideoProcessing\MotionDetectorCore\SimpleBGFilter.cpp">
+      <Filter>Filters\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Admin\IFloor\projects\wxVideoProcessing\MotionDetectorCore\SubOrBGFilter.cpp">
+      <Filter>Filters\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Admin\IFloor\projects\wxVideoProcessing\MotionDetectorCore\XorBGFilter.cpp">
+      <Filter>Filters\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Admin\IFloor\projects\wxVideoProcessing\MotionDetectorCore\SimpleHighpassFilter.cpp">
+      <Filter>Filters\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Admin\IFloor\projects\wxVideoProcessing\MotionDetectorCore\SmoothingFilter.cpp">
+      <Filter>Filters\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Admin\IFloor\projects\wxVideoProcessing\MotionDetectorCore\ThresholdFilter.cpp">
+      <Filter>Filters\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Admin\IFloor\projects\wxVideoProcessing\MotionDetectorCore\KinectMonoFilter.cpp">
+      <Filter>Filters\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Admin\IFloor\projects\wxVideoProcessing\MotionDetectorCore\KinectDepthBGFilter.cpp">
+      <Filter>Filters\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Admin\IFloor\projects\wxVideoProcessing\MotionDetectorCore\KinectBGFilter.cpp">
+      <Filter>Filters\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Admin\IFloor\projects\wxVideoProcessing\MotionDetectorCore\KinectThresholdFilter.cpp">
+      <Filter>Filters\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Admin\IFloor\projects\wxVideoProcessing\MotionDetectorCore\Tracking.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Admin\IFloor\projects\wxVideoProcessing\MotionDetectorCore\DisplayGeometryWindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Admin\IFloor\projects\wxVideoProcessing\MotionDetectorCore\LinuxUtils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Admin\IFloor\projects\wxVideoProcessing\include\stdwx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Admin\IFloor\projects\wxVideoProcessing\MotionDetectorCore\MotionDetectorCorePlugin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Admin\IFloor\projects\wxVideoProcessing\MotionDetectorCore\FilterPreviewWindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Admin\IFloor\projects\wxVideoProcessing\MotionDetectorCore\wxBitmapEvent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Admin\IFloor\projects\wxVideoProcessing\MotionDetectorCore\AmplifyFilter.h">
+      <Filter>Filters\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Admin\IFloor\projects\wxVideoProcessing\MotionDetectorCore\BackgroundFilter.h">
+      <Filter>Filters\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Admin\IFloor\projects\wxVideoProcessing\MotionDetectorCore\BarrelDistortionCorrectionFilter.h">
+      <Filter>Filters\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Admin\IFloor\projects\wxVideoProcessing\MotionDetectorCore\BrightnessContrastFilter.h">
+      <Filter>Filters\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Admin\IFloor\projects\wxVideoProcessing\MotionDetectorCore\ContourFinder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Admin\IFloor\projects\wxVideoProcessing\MotionDetectorCore\CropFilter.h">
+      <Filter>Filters\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Admin\IFloor\projects\wxVideoProcessing\MotionDetectorCore\DummyFilter.h">
+      <Filter>Filters\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Admin\IFloor\projects\wxVideoProcessing\MotionDetectorCore\DynamicBGFilter.h">
+      <Filter>Filters\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Admin\IFloor\projects\wxVideoProcessing\MotionDetectorCore\EqualizeHistFilter.h">
+      <Filter>Filters\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Admin\IFloor\projects\wxVideoProcessing\MotionDetectorCore\FilterFactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Admin\IFloor\projects\wxVideoProcessing\MotionDetectorCore\FilterTemplate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Admin\IFloor\projects\wxVideoProcessing\MotionDetectorCore\FlipFilter.h">
+      <Filter>Filters\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Admin\IFloor\projects\wxVideoProcessing\MotionDetectorCore\HighpassFilter.h">
+      <Filter>Filters\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Admin\IFloor\projects\wxVideoProcessing\MotionDetectorCore\IFloorImagePreprocessor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Admin\IFloor\projects\wxVideoProcessing\MotionDetectorCore\IFloorImagePreprocessorSettings.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Admin\IFloor\projects\wxVideoProcessing\MotionDetectorCore\Image.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Admin\IFloor\projects\wxVideoProcessing\MotionDetectorCore\InvertFilter.h">
+      <Filter>Filters\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Admin\IFloor\projects\wxVideoProcessing\MotionDetectorCore\MonoFilter.h">
+      <Filter>Filters\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Admin\IFloor\projects\wxVideoProcessing\MotionDetectorCore\PerspectiveFilter.h">
+      <Filter>Filters\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Admin\IFloor\projects\wxVideoProcessing\MotionDetectorCore\RectifyFilter.h">
+      <Filter>Filters\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Admin\IFloor\projects\wxVideoProcessing\MotionDetectorCore\ResizeFilter.h">
+      <Filter>Filters\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Admin\IFloor\projects\wxVideoProcessing\MotionDetectorCore\ScalerFilter.h">
+      <Filter>Filters\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Admin\IFloor\projects\wxVideoProcessing\MotionDetectorCore\ShapeFilter.h">
+      <Filter>Filters\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Admin\IFloor\projects\wxVideoProcessing\MotionDetectorCore\SimpleBGFilter.h">
+      <Filter>Filters\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Admin\IFloor\projects\wxVideoProcessing\MotionDetectorCore\SubOrBGFilter.h">
+      <Filter>Filters\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Admin\IFloor\projects\wxVideoProcessing\MotionDetectorCore\XorBGFilter.h">
+      <Filter>Filters\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Admin\IFloor\projects\wxVideoProcessing\MotionDetectorCore\SimpleHighpassFilter.h">
+      <Filter>Filters\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Admin\IFloor\projects\wxVideoProcessing\MotionDetectorCore\SmoothingFilter.h">
+      <Filter>Filters\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Admin\IFloor\projects\wxVideoProcessing\MotionDetectorCore\ThresholdFilter.h">
+      <Filter>Filters\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Admin\IFloor\projects\wxVideoProcessing\MotionDetectorCore\KinectMonoFilter.h">
+      <Filter>Filters\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Admin\IFloor\projects\wxVideoProcessing\MotionDetectorCore\KinectDepthBGFilter.h">
+      <Filter>Filters\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Admin\IFloor\projects\wxVideoProcessing\MotionDetectorCore\KinectBGFilter.h">
+      <Filter>Filters\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Admin\IFloor\projects\wxVideoProcessing\MotionDetectorCore\KinectThresholdFilter.h">
+      <Filter>Filters\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Admin\IFloor\projects\wxVideoProcessing\MotionDetectorCore\Tracking.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Admin\IFloor\projects\wxVideoProcessing\MotionDetectorCore\vector2d.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Admin\IFloor\projects\wxVideoProcessing\MotionDetectorCore\DisplayGeometryWindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Admin\IFloor\projects\wxVideoProcessing\MotionDetectorCore\LinuxUtils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Admin\IFloor\projects\wxVideoProcessing\include\stdwx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Admin\IFloor\projects\wxVideoProcessing\MotionDetectorCore\Win\CMakeFiles\MotionDetectorCore.dir\Debug\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Admin\IFloor\projects\wxVideoProcessing\MotionDetectorCore\Win\CMakeFiles\MotionDetectorCore.dir\Release\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Admin\IFloor\projects\wxVideoProcessing\MotionDetectorCore\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Filters">
+      <UniqueIdentifier>{C253D8A8-FCEA-396C-8BC7-8C747007130B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Filters\Headers">
+      <UniqueIdentifier>{47E23639-2555-37C5-95A9-E470DDCF6088}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Filters\Sources">
+      <UniqueIdentifier>{77D62B12-3DB6-37F6-B202-947DD58AC568}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{4951AEE1-75F2-3C38-B593-C6BC8C809FB0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Precompile Header File">
+      <UniqueIdentifier>{112D4227-BB51-3360-BB5B-5EA5DBA5A65F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{05450AB2-CB7B-34EA-83DF-1EE86424EDF0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

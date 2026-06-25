@@ -44,7 +44,7 @@ protected:
 	{
 		typename PluginListType::compatibility_iterator it = 
 			container.Find(plugin);
-		if (it == NULL)
+		if (it == nullptr)
 			return false;
 
 		do 

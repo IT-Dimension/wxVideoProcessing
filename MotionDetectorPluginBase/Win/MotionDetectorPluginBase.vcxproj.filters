@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Admin\IFloor\projects\wxVideoProcessing\MotionDetectorPluginBase\Win\CMakeFiles\MotionDetectorPluginBase.dir\cmake_pch.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Admin\IFloor\projects\wxVideoProcessing\MotionDetectorPluginBase\GeometryProvider.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Admin\IFloor\projects\wxVideoProcessing\MotionDetectorPluginBase\MotionDetectorPluginBase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Admin\IFloor\projects\wxVideoProcessing\MotionDetectorPluginBase\MotionDetectorBase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Admin\IFloor\projects\wxVideoProcessing\MotionDetectorPluginBase\MotionDetectorConfigWindowBase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Admin\IFloor\projects\wxVideoProcessing\MotionDetectorPluginBase\IFloorCameraSettings.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Admin\IFloor\projects\wxVideoProcessing\include\stdwx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Admin\IFloor\projects\wxVideoProcessing\MotionDetectorPluginBase\GeometryProvider.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Admin\IFloor\projects\wxVideoProcessing\MotionDetectorPluginBase\MotionDetectorPluginBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Admin\IFloor\projects\wxVideoProcessing\MotionDetectorPluginBase\MotionDetectorBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Admin\IFloor\projects\wxVideoProcessing\MotionDetectorPluginBase\MotionDetectorConfigWindowBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Admin\IFloor\projects\wxVideoProcessing\MotionDetectorPluginBase\MotionDetectorPlugin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Admin\IFloor\projects\wxVideoProcessing\MotionDetectorPluginBase\IFloorCameraSettings.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Admin\IFloor\projects\wxVideoProcessing\include\stdwx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Admin\IFloor\projects\wxVideoProcessing\MotionDetectorPluginBase\Win\CMakeFiles\MotionDetectorPluginBase.dir\Debug\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Admin\IFloor\projects\wxVideoProcessing\MotionDetectorPluginBase\Win\CMakeFiles\MotionDetectorPluginBase.dir\Release\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Admin\IFloor\projects\wxVideoProcessing\MotionDetectorPluginBase\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{4951AEE1-75F2-3C38-B593-C6BC8C809FB0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Precompile Header File">
+      <UniqueIdentifier>{112D4227-BB51-3360-BB5B-5EA5DBA5A65F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{05450AB2-CB7B-34EA-83DF-1EE86424EDF0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

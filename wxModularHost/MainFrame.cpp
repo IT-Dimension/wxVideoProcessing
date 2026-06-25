@@ -179,17 +179,17 @@ wxIcon MainFrame::GetIconResource( const wxString& name )
 void MainFrame::AddPagesFromGuiPlugins()
 {
 	SampleModularCore * pluginManager = wxGetApp().GetPluginManager();
-	for(wxGuiPluginBaseList::Node * node = pluginManager->GetGuiPlugins().GetFirst();
+	for(wxGuiPluginBaseList::compatibility_iterator node = pluginManager->GetGuiPlugins().GetFirst();
 		node; node = node->GetNext())
 	{
-		wxGuiPluginBase * plugin = node->GetData();
-		if(plugin)
-		{
-			wxWindow * page = plugin->CreatePanel(m_Notebook);
-			if(page)
-			{
-				m_Notebook->AddPage(page, plugin->GetName());
-			}
-		}
+        wxGuiPluginBase* plugin = node->GetData();
+        if (plugin)
+        {
+            wxWindow* page = plugin->CreatePanel(m_Notebook);
+            if (page)
+            {
+                m_Notebook->AddPage(page, plugin->GetName());
+            }
+        }
 	}
 }

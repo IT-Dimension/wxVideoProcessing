@@ -1,0 +1,6 @@
+LIBRARY	"MotionDetectorMultiCam"
+
+EXPORTS
+	CreatePlugin=CreatePlugin
+	DeletePlugin=DeletePlugin
+	

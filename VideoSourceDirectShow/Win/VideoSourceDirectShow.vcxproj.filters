@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Admin\IFloor\projects\wxVideoProcessing\VideoSourceDirectShow\Win\CMakeFiles\VideoSourceDirectShow.dir\cmake_pch.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Admin\IFloor\projects\wxVideoProcessing\VideoSourceDirectShow\VideoSourceDirectShowPlugin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Admin\IFloor\projects\wxVideoProcessing\VideoSourceDirectShow\VideoSourceDirectShowApp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Admin\IFloor\projects\wxVideoProcessing\VideoSourceDirectShow\VideoSourceDirectShowExports.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Admin\IFloor\projects\wxVideoProcessing\VideoSourceDirectShow\VideoGrabberDirectShow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Admin\IFloor\projects\wxVideoProcessing\VideoSourceDirectShow\DSNative\Crossbar.cpp">
+      <Filter>DSNative\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Admin\IFloor\projects\wxVideoProcessing\VideoSourceDirectShow\DSNative\Device.cpp">
+      <Filter>DSNative\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Admin\IFloor\projects\wxVideoProcessing\VideoSourceDirectShow\DSNative\DeviceManager.cpp">
+      <Filter>DSNative\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Admin\IFloor\projects\wxVideoProcessing\VideoSourceDirectShow\DSNative\Format.cpp">
+      <Filter>DSNative\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Admin\IFloor\projects\wxVideoProcessing\VideoSourceDirectShow\DSNative\FrameGrabber.cpp">
+      <Filter>DSNative\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Admin\IFloor\projects\wxVideoProcessing\VideoSourceDirectShow\DSNative\DirectShow\Sources\DSCategoryHelper.cpp">
+      <Filter>DSNative\DirectShow\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Admin\IFloor\projects\wxVideoProcessing\VideoSourceDirectShow\DSNative\DirectShow\Sources\DSFileWriter.cpp">
+      <Filter>DSNative\DirectShow\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Admin\IFloor\projects\wxVideoProcessing\VideoSourceDirectShow\DSNative\DirectShow\Sources\DSFilter.cpp">
+      <Filter>DSNative\DirectShow\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Admin\IFloor\projects\wxVideoProcessing\VideoSourceDirectShow\DSNative\DirectShow\Sources\DSFilterGraphBase.cpp">
+      <Filter>DSNative\DirectShow\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Admin\IFloor\projects\wxVideoProcessing\VideoSourceDirectShow\DSNative\DirectShow\Sources\DSObjectBase.cpp">
+      <Filter>DSNative\DirectShow\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Admin\IFloor\projects\wxVideoProcessing\VideoSourceDirectShow\DSNative\DirectShow\Sources\DSSampleGrabber.cpp">
+      <Filter>DSNative\DirectShow\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Admin\IFloor\projects\wxVideoProcessing\include\stdwx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Admin\IFloor\projects\wxVideoProcessing\VideoSourceDirectShow\VideoSourceDirectShowPlugin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Admin\IFloor\projects\wxVideoProcessing\VideoSourceDirectShow\VideoGrabberDirectShow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Admin\IFloor\projects\wxVideoProcessing\VideoSourceDirectShow\VideoSourceDirectShowApp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Admin\IFloor\projects\wxVideoProcessing\VideoSourceDirectShow\DSNative\Crossbar.h">
+      <Filter>DSNative\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Admin\IFloor\projects\wxVideoProcessing\VideoSourceDirectShow\DSNative\Device.h">
+      <Filter>DSNative\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Admin\IFloor\projects\wxVideoProcessing\VideoSourceDirectShow\DSNative\DeviceManager.h">
+      <Filter>DSNative\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Admin\IFloor\projects\wxVideoProcessing\VideoSourceDirectShow\DSNative\Format.h">
+      <Filter>DSNative\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Admin\IFloor\projects\wxVideoProcessing\VideoSourceDirectShow\DSNative\FrameGrabber.h">
+      <Filter>DSNative\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Admin\IFloor\projects\wxVideoProcessing\VideoSourceDirectShow\DSNative\DirectShow\Include\DSCategoryHelper.h">
+      <Filter>DSNative\DirectShow\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Admin\IFloor\projects\wxVideoProcessing\VideoSourceDirectShow\DSNative\DirectShow\Include\DSCommon.h">
+      <Filter>DSNative\DirectShow\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Admin\IFloor\projects\wxVideoProcessing\VideoSourceDirectShow\DSNative\DirectShow\Include\DSFilter.h">
+      <Filter>DSNative\DirectShow\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Admin\IFloor\projects\wxVideoProcessing\VideoSourceDirectShow\DSNative\DirectShow\Include\DSFilterGraphBase.h">
+      <Filter>DSNative\DirectShow\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Admin\IFloor\projects\wxVideoProcessing\VideoSourceDirectShow\DSNative\DirectShow\Include\DSFiltersDefinition.h">
+      <Filter>DSNative\DirectShow\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Admin\IFloor\projects\wxVideoProcessing\VideoSourceDirectShow\DSNative\DirectShow\Include\DSObjectBase.h">
+      <Filter>DSNative\DirectShow\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Admin\IFloor\projects\wxVideoProcessing\include\stdwx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Admin\IFloor\projects\wxVideoProcessing\VideoSourceDirectShow\Win\CMakeFiles\VideoSourceDirectShow.dir\Debug\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Admin\IFloor\projects\wxVideoProcessing\VideoSourceDirectShow\Win\CMakeFiles\VideoSourceDirectShow.dir\Release\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Admin\IFloor\projects\wxVideoProcessing\VideoSourceDirectShow\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\Admin\IFloor\projects\wxVideoProcessing\VideoSourceDirectShow\VideoSourceDirectShow.def">
+      <Filter>Source Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="DSNative">
+      <UniqueIdentifier>{92D75CDB-6B0D-36E2-B6CD-6A45DA6910EF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DSNative\DirectShow">
+      <UniqueIdentifier>{5230ED5F-4004-3097-AD60-9838A9A11E79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DSNative\DirectShow\Include">
+      <UniqueIdentifier>{E59ADCBE-1FB0-3336-8CF7-0AFA452EC6A3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DSNative\DirectShow\Sources">
+      <UniqueIdentifier>{A30B23EA-255B-3698-99B5-7D45717AF558}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DSNative\Include">
+      <UniqueIdentifier>{4B99EE2E-88CC-366B-B27A-5CE169B8688C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DSNative\Sources">
+      <UniqueIdentifier>{A8A68941-16AF-3A8A-9CFE-F73D7F1D5ACB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{4951AEE1-75F2-3C38-B593-C6BC8C809FB0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Precompile Header File">
+      <UniqueIdentifier>{112D4227-BB51-3360-BB5B-5EA5DBA5A65F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{05450AB2-CB7B-34EA-83DF-1EE86424EDF0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

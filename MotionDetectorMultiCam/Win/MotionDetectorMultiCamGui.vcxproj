@@ -1,0 +1,325 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{38ABD20B-B450-3DE7-A759-71587CAB9A2A}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>MotionDetectorMultiCamGui</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Admin\IFloor\projects\wxVideoProcessing\bin\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">MotionDetectorMultiCamGui.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">MotionDetectorMultiCamGui</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Admin\IFloor\projects\wxVideoProcessing\bin\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">MotionDetectorMultiCamGui.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">MotionDetectorMultiCamGui</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Admin\IFloor\libs\wxWidgets\lib\vc_x64_dll\mswu;C:\Users\Admin\IFloor\libs\wxWidgets\include;C:\Users\Admin\IFloor\projects\wxVideoProcessing\build\..\include;C:\Users\Admin\IFloor\projects\wxVideoProcessing\build\..\Utils;C:\Users\Admin\IFloor\projects\wxVideoProcessing\build\..\MotionDetectorCore;C:\Users\Admin\IFloor\projects\wxVideoProcessing\build\..\ThirdParty;C:\Users\Admin\IFloor\projects\wxVideoProcessing\build\..\ThirdParty\include;C:\Users\Admin\IFloor\projects\wxVideoProcessing\build\..\ThirdParty\wxJSON\include;C:\Users\Admin\IFloor\projects\wxVideoProcessing\build\..\ThirdParty\wxxmlserializer\include;C:\Users\Admin\IFloor\projects\wxVideoProcessing\build\..\ThirdParty\wxxmlserializer;C:\Users\Admin\IFloor\projects\wxVideoProcessing\MotionDetectorMultiCam;C:\Users\Admin\IFloor\projects\wxVideoProcessing\build\..\MotionDetectorPluginBase;C:\Users\Admin\IFloor\projects\wxVideoProcessing\build\..\wxGuiPluginBase;C:\Users\Admin\IFloor\projects\wxVideoProcessing\build\..\CommonPluginBase;C:\Users\Admin\IFloor\projects\wxVideoProcessing\build\..\ThirdParty\wxXS\include;C:\Users\Admin\IFloor\projects\wxVideoProcessing\build\..\ThirdParty\MotionPrimitives;C:\Users\Admin\IFloor\projects\wxVideoProcessing\ThirdParty\wxXS\build\..\include;C:\Users\Admin\IFloor\projects\wxVideoProcessing\ThirdParty\wxJSON\build\..\include;C:\Users\Admin\IFloor\projects\wxVideoProcessing\ThirdParty\videoInput;C:\Users\Admin\IFloor\projects\wxVideoProcessing\ThirdParty\videoInput\..\strmbas;C:\Users\Admin\IFloor\projects\wxVideoProcessing\ThirdParty\strmbas;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/Admin/IFloor/libs/opencv/build/include"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4996</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <FloatingPointModel></FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>C:/Users/Admin/IFloor/projects/wxVideoProcessing/MotionDetectorMultiCam/Win/CMakeFiles/MotionDetectorMultiCamGui.dir/Debug/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>C:/Users/Admin/IFloor/projects/wxVideoProcessing/MotionDetectorMultiCam/Win/MotionDetectorMultiCamGui.dir/Debug//cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;__WXDEBUG__=1;WIN32_LEAN_AND_MEAN;WXUSINGDLL;UNICODE;_UNICODE;_CRT_SECURE_NO_DEPRECATE;_USRDLL;_WIN32_WINNT=0x0501;CMAKE_INTDIR="Debug";MotionDetectorMultiCamGui_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;__WXDEBUG__=1;WIN32_LEAN_AND_MEAN;WXUSINGDLL;UNICODE;_UNICODE;_CRT_SECURE_NO_DEPRECATE;_USRDLL;_WIN32_WINNT=0x0501;CMAKE_INTDIR=\"Debug\";MotionDetectorMultiCamGui_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Admin\IFloor\libs\wxWidgets\lib\vc_x64_dll\mswu;C:\Users\Admin\IFloor\libs\wxWidgets\include;C:\Users\Admin\IFloor\projects\wxVideoProcessing\build\..\include;C:\Users\Admin\IFloor\projects\wxVideoProcessing\build\..\Utils;C:\Users\Admin\IFloor\projects\wxVideoProcessing\build\..\MotionDetectorCore;C:\Users\Admin\IFloor\projects\wxVideoProcessing\build\..\ThirdParty;C:\Users\Admin\IFloor\projects\wxVideoProcessing\build\..\ThirdParty\include;C:\Users\Admin\IFloor\projects\wxVideoProcessing\build\..\ThirdParty\wxJSON\include;C:\Users\Admin\IFloor\projects\wxVideoProcessing\build\..\ThirdParty\wxxmlserializer\include;C:\Users\Admin\IFloor\projects\wxVideoProcessing\build\..\ThirdParty\wxxmlserializer;C:\Users\Admin\IFloor\projects\wxVideoProcessing\MotionDetectorMultiCam;C:\Users\Admin\IFloor\projects\wxVideoProcessing\build\..\MotionDetectorPluginBase;C:\Users\Admin\IFloor\projects\wxVideoProcessing\build\..\wxGuiPluginBase;C:\Users\Admin\IFloor\projects\wxVideoProcessing\build\..\CommonPluginBase;C:\Users\Admin\IFloor\projects\wxVideoProcessing\build\..\ThirdParty\wxXS\include;C:\Users\Admin\IFloor\projects\wxVideoProcessing\build\..\ThirdParty\MotionPrimitives;C:\Users\Admin\IFloor\projects\wxVideoProcessing\ThirdParty\wxXS\build\..\include;C:\Users\Admin\IFloor\projects\wxVideoProcessing\ThirdParty\wxJSON\build\..\include;C:\Users\Admin\IFloor\projects\wxVideoProcessing\ThirdParty\videoInput;C:\Users\Admin\IFloor\projects\wxVideoProcessing\ThirdParty\videoInput\..\strmbas;C:\Users\Admin\IFloor\projects\wxVideoProcessing\ThirdParty\strmbas;C:\Users\Admin\IFloor\libs\opencv\build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Admin\IFloor\libs\wxWidgets\lib\vc_x64_dll\mswu;C:\Users\Admin\IFloor\libs\wxWidgets\include;C:\Users\Admin\IFloor\projects\wxVideoProcessing\build\..\include;C:\Users\Admin\IFloor\projects\wxVideoProcessing\build\..\Utils;C:\Users\Admin\IFloor\projects\wxVideoProcessing\build\..\MotionDetectorCore;C:\Users\Admin\IFloor\projects\wxVideoProcessing\build\..\ThirdParty;C:\Users\Admin\IFloor\projects\wxVideoProcessing\build\..\ThirdParty\include;C:\Users\Admin\IFloor\projects\wxVideoProcessing\build\..\ThirdParty\wxJSON\include;C:\Users\Admin\IFloor\projects\wxVideoProcessing\build\..\ThirdParty\wxxmlserializer\include;C:\Users\Admin\IFloor\projects\wxVideoProcessing\build\..\ThirdParty\wxxmlserializer;C:\Users\Admin\IFloor\projects\wxVideoProcessing\MotionDetectorMultiCam;C:\Users\Admin\IFloor\projects\wxVideoProcessing\build\..\MotionDetectorPluginBase;C:\Users\Admin\IFloor\projects\wxVideoProcessing\build\..\wxGuiPluginBase;C:\Users\Admin\IFloor\projects\wxVideoProcessing\build\..\CommonPluginBase;C:\Users\Admin\IFloor\projects\wxVideoProcessing\build\..\ThirdParty\wxXS\include;C:\Users\Admin\IFloor\projects\wxVideoProcessing\build\..\ThirdParty\MotionPrimitives;C:\Users\Admin\IFloor\projects\wxVideoProcessing\ThirdParty\wxXS\build\..\include;C:\Users\Admin\IFloor\projects\wxVideoProcessing\ThirdParty\wxJSON\build\..\include;C:\Users\Admin\IFloor\projects\wxVideoProcessing\ThirdParty\videoInput;C:\Users\Admin\IFloor\projects\wxVideoProcessing\ThirdParty\videoInput\..\strmbas;C:\Users\Admin\IFloor\projects\wxVideoProcessing\ThirdParty\strmbas;C:\Users\Admin\IFloor\libs\opencv\build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/Admin/IFloor/projects/wxVideoProcessing/build/../bin/plugins/gui
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/Admin/IFloor/projects/wxVideoProcessing/bin/MotionDetectorMultiCamGui.dll C:/Users/Admin/IFloor/projects/wxVideoProcessing/build/../bin/plugins/gui/MotionDetectorMultiCamGui.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>C:\Users\Admin\IFloor\libs\wxWidgets\lib\vc_x64_dll\wxbase33ud.lib;C:\Users\Admin\IFloor\libs\wxWidgets\lib\vc_x64_dll\wxmsw33ud_core.lib;C:\Users\Admin\IFloor\libs\wxWidgets\lib\vc_x64_dll\wxmsw33ud_adv.lib;C:\Users\Admin\IFloor\libs\wxWidgets\lib\vc_x64_dll\wxmsw33ud_aui.lib;C:\Users\Admin\IFloor\libs\wxWidgets\lib\vc_x64_dll\wxbase33ud_net.lib;C:\Users\Admin\IFloor\libs\wxWidgets\lib\vc_x64_dll\wxmsw33ud_gl.lib;C:\Users\Admin\IFloor\libs\wxWidgets\lib\vc_x64_dll\wxbase33ud_xml.lib;C:\Users\Admin\IFloor\libs\wxWidgets\lib\vc_x64_dll\wxmsw33ud_propgrid.lib;C:\Users\Admin\IFloor\libs\wxWidgets\lib\vc_x64_dll\wxmsw33ud_html.lib;C:\Users\Admin\IFloor\libs\wxWidgets\lib\vc_x64_dll\wxpngd.lib;C:\Users\Admin\IFloor\libs\wxWidgets\lib\vc_x64_dll\wxtiffd.lib;C:\Users\Admin\IFloor\libs\wxWidgets\lib\vc_x64_dll\wxjpegd.lib;C:\Users\Admin\IFloor\libs\wxWidgets\lib\vc_x64_dll\wxzlibd.lib;C:\Users\Admin\IFloor\libs\wxWidgets\lib\vc_x64_dll\wxregexud.lib;C:\Users\Admin\IFloor\libs\wxWidgets\lib\vc_x64_dll\wxexpatd.lib;opengl32.lib;glu32.lib;winmm.lib;comctl32.lib;uuid.lib;oleacc.lib;uxtheme.lib;rpcrt4.lib;shlwapi.lib;version.lib;wsock32.lib;C:\Users\Admin\IFloor\projects\wxVideoProcessing\bin\lib\Debug\MotionDetectorMultiCam.lib;C:\Users\Admin\IFloor\projects\wxVideoProcessing\bin\lib\Debug\Utils.lib;C:\Users\Admin\IFloor\projects\wxVideoProcessing\bin\lib\Debug\wxGuiPluginBase.lib;C:\Users\Admin\IFloor\projects\wxVideoProcessing\bin\lib\Debug\MotionDetectorCore.lib;C:\Users\Admin\IFloor\projects\wxVideoProcessing\bin\lib\Debug\MotionDetectorPluginBase.lib;C:\Users\Admin\IFloor\projects\wxVideoProcessing\bin\lib\Debug\CommonPluginBase.lib;C:\Users\Admin\IFloor\projects\wxVideoProcessing\bin\lib\Debug\Utils.lib;C:\Users\Admin\IFloor\projects\wxVideoProcessing\bin\lib\Debug\wxXS.lib;C:\Users\Admin\IFloor\projects\wxVideoProcessing\bin\lib\Debug\wxJSON.lib;C:\Users\Admin\IFloor\projects\wxVideoProcessing\bin\lib\Debug\MotionPrimitives.lib;C:\Users\Admin\IFloor\projects\wxVideoProcessing\bin\lib\Debug\videoInput.lib;C:\Users\Admin\IFloor\projects\wxVideoProcessing\bin\lib\Debug\strmbas.lib;C:\Users\Admin\IFloor\libs\opencv\build\x64\vc16\lib\opencv_world4120d.lib;C:\Users\Admin\IFloor\libs\opencv\build\x64\vc16\lib\opencv_world4120d.lib;C:\Users\Admin\IFloor\libs\opencv\build\x64\vc16\lib\opencv_world4120d.lib;C:\Users\Admin\IFloor\libs\opencv\build\x64\vc16\lib\opencv_world4120d.lib;C:\Users\Admin\IFloor\libs\opencv\build\x64\vc16\lib\opencv_world4120d.lib;C:\Users\Admin\IFloor\libs\opencv\build\x64\vc16\lib\opencv_world4120d.lib;C:\Users\Admin\IFloor\libs\opencv\build\x64\vc16\lib\opencv_world4120d.lib;C:\Users\Admin\IFloor\libs\opencv\build\x64\vc16\lib\opencv_world4120d.lib;C:\Users\Admin\IFloor\libs\opencv\build\x64\vc16\lib\opencv_world4120d.lib;C:\Users\Admin\IFloor\libs\opencv\build\x64\vc16\lib\opencv_world4120d.lib;C:\Users\Admin\IFloor\libs\opencv\build\x64\vc16\lib\opencv_world4120d.lib;C:\Users\Admin\IFloor\libs\opencv\build\x64\vc16\lib\opencv_world4120d.lib;C:\Users\Admin\IFloor\libs\opencv\build\x64\vc16\lib\opencv_world4120d.lib;C:\Users\Admin\IFloor\libs\opencv\build\x64\vc16\lib\opencv_world4120d.lib;C:\Users\Admin\IFloor\libs\opencv\build\x64\vc16\lib\opencv_world4120d.lib;C:\Users\Admin\IFloor\libs\opencv\build\x64\vc16\lib\opencv_world4120d.lib;C:\Users\Admin\IFloor\libs\wxWidgets\lib\vc_x64_dll\wxbase33ud.lib;C:\Users\Admin\IFloor\libs\wxWidgets\lib\vc_x64_dll\wxmsw33ud_core.lib;C:\Users\Admin\IFloor\libs\wxWidgets\lib\vc_x64_dll\wxmsw33ud_adv.lib;C:\Users\Admin\IFloor\libs\wxWidgets\lib\vc_x64_dll\wxmsw33ud_aui.lib;C:\Users\Admin\IFloor\libs\wxWidgets\lib\vc_x64_dll\wxbase33ud_net.lib;C:\Users\Admin\IFloor\libs\wxWidgets\lib\vc_x64_dll\wxmsw33ud_gl.lib;C:\Users\Admin\IFloor\libs\wxWidgets\lib\vc_x64_dll\wxbase33ud_xml.lib;C:\Users\Admin\IFloor\libs\wxWidgets\lib\vc_x64_dll\wxmsw33ud_propgrid.lib;C:\Users\Admin\IFloor\libs\wxWidgets\lib\vc_x64_dll\wxmsw33ud_html.lib;C:\Users\Admin\IFloor\libs\wxWidgets\lib\vc_x64_dll\wxpngd.lib;C:\Users\Admin\IFloor\libs\wxWidgets\lib\vc_x64_dll\wxtiffd.lib;C:\Users\Admin\IFloor\libs\wxWidgets\lib\vc_x64_dll\wxjpegd.lib;C:\Users\Admin\IFloor\libs\wxWidgets\lib\vc_x64_dll\wxzlibd.lib;C:\Users\Admin\IFloor\libs\wxWidgets\lib\vc_x64_dll\wxregexud.lib;C:\Users\Admin\IFloor\libs\wxWidgets\lib\vc_x64_dll\wxexpatd.lib;opengl32.lib;glu32.lib;winmm.lib;comctl32.lib;uuid.lib;oleacc.lib;uxtheme.lib;rpcrt4.lib;shlwapi.lib;version.lib;wsock32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/Users/Admin/IFloor/projects/wxVideoProcessing/build/Win/lib;C:/Users/Admin/IFloor/projects/wxVideoProcessing/build/Win/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <DataExecutionPrevention></DataExecutionPrevention>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImageHasSafeExceptionHandlers></ImageHasSafeExceptionHandlers>
+      <ImportLibrary>C:/Users/Admin/IFloor/projects/wxVideoProcessing/bin/lib/Debug/MotionDetectorMultiCamGui.lib</ImportLibrary>
+      <LinkErrorReporting></LinkErrorReporting>
+      <ProgramDataBaseFile>C:/Users/Admin/IFloor/projects/wxVideoProcessing/bin/MotionDetectorMultiCamGui.pdb</ProgramDataBaseFile>
+      <RandomizedBaseAddress></RandomizedBaseAddress>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Admin\IFloor\libs\wxWidgets\lib\vc_x64_dll\mswu;C:\Users\Admin\IFloor\libs\wxWidgets\include;C:\Users\Admin\IFloor\projects\wxVideoProcessing\build\..\include;C:\Users\Admin\IFloor\projects\wxVideoProcessing\build\..\Utils;C:\Users\Admin\IFloor\projects\wxVideoProcessing\build\..\MotionDetectorCore;C:\Users\Admin\IFloor\projects\wxVideoProcessing\build\..\ThirdParty;C:\Users\Admin\IFloor\projects\wxVideoProcessing\build\..\ThirdParty\include;C:\Users\Admin\IFloor\projects\wxVideoProcessing\build\..\ThirdParty\wxJSON\include;C:\Users\Admin\IFloor\projects\wxVideoProcessing\build\..\ThirdParty\wxxmlserializer\include;C:\Users\Admin\IFloor\projects\wxVideoProcessing\build\..\ThirdParty\wxxmlserializer;C:\Users\Admin\IFloor\projects\wxVideoProcessing\MotionDetectorMultiCam;C:\Users\Admin\IFloor\projects\wxVideoProcessing\build\..\MotionDetectorPluginBase;C:\Users\Admin\IFloor\projects\wxVideoProcessing\build\..\wxGuiPluginBase;C:\Users\Admin\IFloor\projects\wxVideoProcessing\build\..\CommonPluginBase;C:\Users\Admin\IFloor\projects\wxVideoProcessing\build\..\ThirdParty\wxXS\include;C:\Users\Admin\IFloor\projects\wxVideoProcessing\build\..\ThirdParty\MotionPrimitives;C:\Users\Admin\IFloor\projects\wxVideoProcessing\ThirdParty\wxXS\build\..\include;C:\Users\Admin\IFloor\projects\wxVideoProcessing\ThirdParty\wxJSON\build\..\include;C:\Users\Admin\IFloor\projects\wxVideoProcessing\ThirdParty\videoInput;C:\Users\Admin\IFloor\projects\wxVideoProcessing\ThirdParty\videoInput\..\strmbas;C:\Users\Admin\IFloor\projects\wxVideoProcessing\ThirdParty\strmbas;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/Admin/IFloor/libs/opencv/build/include"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <DisableSpecificWarnings>4996</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <FloatingPointModel></FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>C:/Users/Admin/IFloor/projects/wxVideoProcessing/MotionDetectorMultiCam/Win/CMakeFiles/MotionDetectorMultiCamGui.dir/Release/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>C:/Users/Admin/IFloor/projects/wxVideoProcessing/MotionDetectorMultiCam/Win/MotionDetectorMultiCamGui.dir/Release//cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;WIN32_LEAN_AND_MEAN;WXUSINGDLL;UNICODE;_UNICODE;_CRT_SECURE_NO_DEPRECATE;_USRDLL;_WIN32_WINNT=0x0501;CMAKE_INTDIR="Release";MotionDetectorMultiCamGui_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;WIN32_LEAN_AND_MEAN;WXUSINGDLL;UNICODE;_UNICODE;_CRT_SECURE_NO_DEPRECATE;_USRDLL;_WIN32_WINNT=0x0501;CMAKE_INTDIR=\"Release\";MotionDetectorMultiCamGui_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Admin\IFloor\libs\wxWidgets\lib\vc_x64_dll\mswu;C:\Users\Admin\IFloor\libs\wxWidgets\include;C:\Users\Admin\IFloor\projects\wxVideoProcessing\build\..\include;C:\Users\Admin\IFloor\projects\wxVideoProcessing\build\..\Utils;C:\Users\Admin\IFloor\projects\wxVideoProcessing\build\..\MotionDetectorCore;C:\Users\Admin\IFloor\projects\wxVideoProcessing\build\..\ThirdParty;C:\Users\Admin\IFloor\projects\wxVideoProcessing\build\..\ThirdParty\include;C:\Users\Admin\IFloor\projects\wxVideoProcessing\build\..\ThirdParty\wxJSON\include;C:\Users\Admin\IFloor\projects\wxVideoProcessing\build\..\ThirdParty\wxxmlserializer\include;C:\Users\Admin\IFloor\projects\wxVideoProcessing\build\..\ThirdParty\wxxmlserializer;C:\Users\Admin\IFloor\projects\wxVideoProcessing\MotionDetectorMultiCam;C:\Users\Admin\IFloor\projects\wxVideoProcessing\build\..\MotionDetectorPluginBase;C:\Users\Admin\IFloor\projects\wxVideoProcessing\build\..\wxGuiPluginBase;C:\Users\Admin\IFloor\projects\wxVideoProcessing\build\..\CommonPluginBase;C:\Users\Admin\IFloor\projects\wxVideoProcessing\build\..\ThirdParty\wxXS\include;C:\Users\Admin\IFloor\projects\wxVideoProcessing\build\..\ThirdParty\MotionPrimitives;C:\Users\Admin\IFloor\projects\wxVideoProcessing\ThirdParty\wxXS\build\..\include;C:\Users\Admin\IFloor\projects\wxVideoProcessing\ThirdParty\wxJSON\build\..\include;C:\Users\Admin\IFloor\projects\wxVideoProcessing\ThirdParty\videoInput;C:\Users\Admin\IFloor\projects\wxVideoProcessing\ThirdParty\videoInput\..\strmbas;C:\Users\Admin\IFloor\projects\wxVideoProcessing\ThirdParty\strmbas;C:\Users\Admin\IFloor\libs\opencv\build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Admin\IFloor\libs\wxWidgets\lib\vc_x64_dll\mswu;C:\Users\Admin\IFloor\libs\wxWidgets\include;C:\Users\Admin\IFloor\projects\wxVideoProcessing\build\..\include;C:\Users\Admin\IFloor\projects\wxVideoProcessing\build\..\Utils;C:\Users\Admin\IFloor\projects\wxVideoProcessing\build\..\MotionDetectorCore;C:\Users\Admin\IFloor\projects\wxVideoProcessing\build\..\ThirdParty;C:\Users\Admin\IFloor\projects\wxVideoProcessing\build\..\ThirdParty\include;C:\Users\Admin\IFloor\projects\wxVideoProcessing\build\..\ThirdParty\wxJSON\include;C:\Users\Admin\IFloor\projects\wxVideoProcessing\build\..\ThirdParty\wxxmlserializer\include;C:\Users\Admin\IFloor\projects\wxVideoProcessing\build\..\ThirdParty\wxxmlserializer;C:\Users\Admin\IFloor\projects\wxVideoProcessing\MotionDetectorMultiCam;C:\Users\Admin\IFloor\projects\wxVideoProcessing\build\..\MotionDetectorPluginBase;C:\Users\Admin\IFloor\projects\wxVideoProcessing\build\..\wxGuiPluginBase;C:\Users\Admin\IFloor\projects\wxVideoProcessing\build\..\CommonPluginBase;C:\Users\Admin\IFloor\projects\wxVideoProcessing\build\..\ThirdParty\wxXS\include;C:\Users\Admin\IFloor\projects\wxVideoProcessing\build\..\ThirdParty\MotionPrimitives;C:\Users\Admin\IFloor\projects\wxVideoProcessing\ThirdParty\wxXS\build\..\include;C:\Users\Admin\IFloor\projects\wxVideoProcessing\ThirdParty\wxJSON\build\..\include;C:\Users\Admin\IFloor\projects\wxVideoProcessing\ThirdParty\videoInput;C:\Users\Admin\IFloor\projects\wxVideoProcessing\ThirdParty\videoInput\..\strmbas;C:\Users\Admin\IFloor\projects\wxVideoProcessing\ThirdParty\strmbas;C:\Users\Admin\IFloor\libs\opencv\build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/Admin/IFloor/projects/wxVideoProcessing/build/../bin/plugins/gui
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/Admin/IFloor/projects/wxVideoProcessing/bin/MotionDetectorMultiCamGui.dll C:/Users/Admin/IFloor/projects/wxVideoProcessing/build/../bin/plugins/gui/MotionDetectorMultiCamGui.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>C:\Users\Admin\IFloor\libs\wxWidgets\lib\vc_x64_dll\wxbase33u.lib;C:\Users\Admin\IFloor\libs\wxWidgets\lib\vc_x64_dll\wxmsw33u_core.lib;C:\Users\Admin\IFloor\libs\wxWidgets\lib\vc_x64_dll\wxmsw33u_adv.lib;C:\Users\Admin\IFloor\libs\wxWidgets\lib\vc_x64_dll\wxmsw33u_aui.lib;C:\Users\Admin\IFloor\libs\wxWidgets\lib\vc_x64_dll\wxbase33u_net.lib;C:\Users\Admin\IFloor\libs\wxWidgets\lib\vc_x64_dll\wxmsw33u_gl.lib;C:\Users\Admin\IFloor\libs\wxWidgets\lib\vc_x64_dll\wxbase33u_xml.lib;C:\Users\Admin\IFloor\libs\wxWidgets\lib\vc_x64_dll\wxmsw33u_propgrid.lib;C:\Users\Admin\IFloor\libs\wxWidgets\lib\vc_x64_dll\wxmsw33u_html.lib;C:\Users\Admin\IFloor\libs\wxWidgets\lib\vc_x64_dll\wxpng.lib;C:\Users\Admin\IFloor\libs\wxWidgets\lib\vc_x64_dll\wxtiff.lib;C:\Users\Admin\IFloor\libs\wxWidgets\lib\vc_x64_dll\wxjpeg.lib;C:\Users\Admin\IFloor\libs\wxWidgets\lib\vc_x64_dll\wxzlib.lib;C:\Users\Admin\IFloor\libs\wxWidgets\lib\vc_x64_dll\wxregexu.lib;C:\Users\Admin\IFloor\libs\wxWidgets\lib\vc_x64_dll\wxexpat.lib;opengl32.lib;glu32.lib;winmm.lib;comctl32.lib;uuid.lib;oleacc.lib;uxtheme.lib;rpcrt4.lib;shlwapi.lib;version.lib;wsock32.lib;C:\Users\Admin\IFloor\projects\wxVideoProcessing\bin\lib\Release\MotionDetectorMultiCam.lib;C:\Users\Admin\IFloor\projects\wxVideoProcessing\bin\lib\Release\Utils.lib;C:\Users\Admin\IFloor\projects\wxVideoProcessing\bin\lib\Release\wxGuiPluginBase.lib;C:\Users\Admin\IFloor\projects\wxVideoProcessing\bin\lib\Release\MotionDetectorCore.lib;C:\Users\Admin\IFloor\projects\wxVideoProcessing\bin\lib\Release\MotionDetectorPluginBase.lib;C:\Users\Admin\IFloor\projects\wxVideoProcessing\bin\lib\Release\CommonPluginBase.lib;C:\Users\Admin\IFloor\projects\wxVideoProcessing\bin\lib\Release\Utils.lib;C:\Users\Admin\IFloor\projects\wxVideoProcessing\bin\lib\Release\wxXS.lib;C:\Users\Admin\IFloor\projects\wxVideoProcessing\bin\lib\Release\wxJSON.lib;C:\Users\Admin\IFloor\projects\wxVideoProcessing\bin\lib\Release\MotionPrimitives.lib;C:\Users\Admin\IFloor\projects\wxVideoProcessing\bin\lib\Release\videoInput.lib;C:\Users\Admin\IFloor\projects\wxVideoProcessing\bin\lib\Release\strmbas.lib;C:\Users\Admin\IFloor\libs\opencv\build\x64\vc16\lib\opencv_world4120.lib;C:\Users\Admin\IFloor\libs\opencv\build\x64\vc16\lib\opencv_world4120.lib;C:\Users\Admin\IFloor\libs\opencv\build\x64\vc16\lib\opencv_world4120.lib;C:\Users\Admin\IFloor\libs\opencv\build\x64\vc16\lib\opencv_world4120.lib;C:\Users\Admin\IFloor\libs\opencv\build\x64\vc16\lib\opencv_world4120.lib;C:\Users\Admin\IFloor\libs\opencv\build\x64\vc16\lib\opencv_world4120.lib;C:\Users\Admin\IFloor\libs\opencv\build\x64\vc16\lib\opencv_world4120.lib;C:\Users\Admin\IFloor\libs\opencv\build\x64\vc16\lib\opencv_world4120.lib;C:\Users\Admin\IFloor\libs\opencv\build\x64\vc16\lib\opencv_world4120.lib;C:\Users\Admin\IFloor\libs\opencv\build\x64\vc16\lib\opencv_world4120.lib;C:\Users\Admin\IFloor\libs\opencv\build\x64\vc16\lib\opencv_world4120.lib;C:\Users\Admin\IFloor\libs\opencv\build\x64\vc16\lib\opencv_world4120.lib;C:\Users\Admin\IFloor\libs\opencv\build\x64\vc16\lib\opencv_world4120.lib;C:\Users\Admin\IFloor\libs\opencv\build\x64\vc16\lib\opencv_world4120.lib;C:\Users\Admin\IFloor\libs\opencv\build\x64\vc16\lib\opencv_world4120.lib;C:\Users\Admin\IFloor\libs\opencv\build\x64\vc16\lib\opencv_world4120.lib;C:\Users\Admin\IFloor\libs\wxWidgets\lib\vc_x64_dll\wxbase33u.lib;C:\Users\Admin\IFloor\libs\wxWidgets\lib\vc_x64_dll\wxmsw33u_core.lib;C:\Users\Admin\IFloor\libs\wxWidgets\lib\vc_x64_dll\wxmsw33u_adv.lib;C:\Users\Admin\IFloor\libs\wxWidgets\lib\vc_x64_dll\wxmsw33u_aui.lib;C:\Users\Admin\IFloor\libs\wxWidgets\lib\vc_x64_dll\wxbase33u_net.lib;C:\Users\Admin\IFloor\libs\wxWidgets\lib\vc_x64_dll\wxmsw33u_gl.lib;C:\Users\Admin\IFloor\libs\wxWidgets\lib\vc_x64_dll\wxbase33u_xml.lib;C:\Users\Admin\IFloor\libs\wxWidgets\lib\vc_x64_dll\wxmsw33u_propgrid.lib;C:\Users\Admin\IFloor\libs\wxWidgets\lib\vc_x64_dll\wxmsw33u_html.lib;C:\Users\Admin\IFloor\libs\wxWidgets\lib\vc_x64_dll\wxpng.lib;C:\Users\Admin\IFloor\libs\wxWidgets\lib\vc_x64_dll\wxtiff.lib;C:\Users\Admin\IFloor\libs\wxWidgets\lib\vc_x64_dll\wxjpeg.lib;C:\Users\Admin\IFloor\libs\wxWidgets\lib\vc_x64_dll\wxzlib.lib;C:\Users\Admin\IFloor\libs\wxWidgets\lib\vc_x64_dll\wxregexu.lib;C:\Users\Admin\IFloor\libs\wxWidgets\lib\vc_x64_dll\wxexpat.lib;opengl32.lib;glu32.lib;winmm.lib;comctl32.lib;uuid.lib;oleacc.lib;uxtheme.lib;rpcrt4.lib;shlwapi.lib;version.lib;wsock32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/Users/Admin/IFloor/projects/wxVideoProcessing/build/Win/lib;C:/Users/Admin/IFloor/projects/wxVideoProcessing/build/Win/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <DataExecutionPrevention></DataExecutionPrevention>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImageHasSafeExceptionHandlers></ImageHasSafeExceptionHandlers>
+      <ImportLibrary>C:/Users/Admin/IFloor/projects/wxVideoProcessing/bin/lib/Release/MotionDetectorMultiCamGui.lib</ImportLibrary>
+      <LinkErrorReporting></LinkErrorReporting>
+      <ProgramDataBaseFile>C:/Users/Admin/IFloor/projects/wxVideoProcessing/bin/MotionDetectorMultiCamGui.pdb</ProgramDataBaseFile>
+      <RandomizedBaseAddress></RandomizedBaseAddress>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Admin\IFloor\projects\wxVideoProcessing\MotionDetectorMultiCam\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Admin/IFloor/projects/wxVideoProcessing/MotionDetectorMultiCam/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Admin/IFloor/projects/wxVideoProcessing/build -BC:/Users/Admin/IFloor/projects/wxVideoProcessing/build/Win --check-stamp-file C:/Users/Admin/IFloor/projects/wxVideoProcessing/MotionDetectorMultiCam/Win/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Admin\IFloor\projects\wxVideoProcessing\MotionDetectorMultiCam\Win\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/Admin/IFloor/projects/wxVideoProcessing/MotionDetectorMultiCam/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Admin/IFloor/projects/wxVideoProcessing/build -BC:/Users/Admin/IFloor/projects/wxVideoProcessing/build/Win --check-stamp-file C:/Users/Admin/IFloor/projects/wxVideoProcessing/MotionDetectorMultiCam/Win/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Admin\IFloor\projects\wxVideoProcessing\MotionDetectorMultiCam\Win\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Admin\IFloor\projects\wxVideoProcessing\MotionDetectorMultiCam\Win\CMakeFiles\MotionDetectorMultiCamGui.dir\cmake_pch.cxx">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/Admin/IFloor/projects/wxVideoProcessing/MotionDetectorMultiCam/Win/CMakeFiles/MotionDetectorMultiCamGui.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/Admin/IFloor/projects/wxVideoProcessing/MotionDetectorMultiCam/Win/CMakeFiles/MotionDetectorMultiCamGui.dir/Debug/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/Admin/IFloor/projects/wxVideoProcessing/MotionDetectorMultiCam/Win/MotionDetectorMultiCamGui.dir/Debug//cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/Admin/IFloor/projects/wxVideoProcessing/MotionDetectorMultiCam/Win/CMakeFiles/MotionDetectorMultiCamGui.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/Admin/IFloor/projects/wxVideoProcessing/MotionDetectorMultiCam/Win/CMakeFiles/MotionDetectorMultiCamGui.dir/Release/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/Admin/IFloor/projects/wxVideoProcessing/MotionDetectorMultiCam/Win/MotionDetectorMultiCamGui.dir/Release//cmake_pch.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Admin\IFloor\projects\wxVideoProcessing\MotionDetectorMultiCam\MotionDetectorMultiCamGuiPlugin.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/Admin/IFloor/projects/wxVideoProcessing/MotionDetectorMultiCam/Win/CMakeFiles/MotionDetectorMultiCamGui.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/Admin/IFloor/projects/wxVideoProcessing/MotionDetectorMultiCam/Win/CMakeFiles/MotionDetectorMultiCamGui.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Admin\IFloor\projects\wxVideoProcessing\MotionDetectorMultiCam\MultiCamSettingsPanel.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/Admin/IFloor/projects/wxVideoProcessing/MotionDetectorMultiCam/Win/CMakeFiles/MotionDetectorMultiCamGui.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/Admin/IFloor/projects/wxVideoProcessing/MotionDetectorMultiCam/Win/CMakeFiles/MotionDetectorMultiCamGui.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\Admin\IFloor\projects\wxVideoProcessing\include\stdwx.h" />
+    <ClCompile Include="C:\Users\Admin\IFloor\projects\wxVideoProcessing\include\stdwx.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/Admin/IFloor/projects/wxVideoProcessing/MotionDetectorMultiCam/Win/CMakeFiles/MotionDetectorMultiCamGui.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/Admin/IFloor/projects/wxVideoProcessing/MotionDetectorMultiCam/Win/CMakeFiles/MotionDetectorMultiCamGui.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\Admin\IFloor\projects\wxVideoProcessing\MotionDetectorMultiCam\Win\CMakeFiles\MotionDetectorMultiCamGui.dir\Debug\cmake_pch.hxx" />
+    <ClInclude Include="C:\Users\Admin\IFloor\projects\wxVideoProcessing\MotionDetectorMultiCam\Win\CMakeFiles\MotionDetectorMultiCamGui.dir\Release\cmake_pch.hxx" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\Admin\IFloor\projects\wxVideoProcessing\build\Win\ZERO_CHECK.vcxproj">
+      <Project>{6F4BDD20-5B99-3029-BDF0-7D719B283AF5}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Admin\IFloor\projects\wxVideoProcessing\CommonPluginBase\Win\CommonPluginBase.vcxproj">
+      <Project>{751A15C0-76C2-3506-AB9D-0CD3545003FA}</Project>
+      <Name>CommonPluginBase</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Admin\IFloor\projects\wxVideoProcessing\MotionDetectorCore\Win\MotionDetectorCore.vcxproj">
+      <Project>{6E933546-0B62-311B-8D7E-6CE2ECD4CAD0}</Project>
+      <Name>MotionDetectorCore</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Admin\IFloor\projects\wxVideoProcessing\MotionDetectorMultiCam\Win\MotionDetectorMultiCam.vcxproj">
+      <Project>{4877C470-9466-37C0-A451-03973F6EDABD}</Project>
+      <Name>MotionDetectorMultiCam</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Admin\IFloor\projects\wxVideoProcessing\MotionDetectorPluginBase\Win\MotionDetectorPluginBase.vcxproj">
+      <Project>{1F4B7EAD-4694-3453-AD34-1757E387661E}</Project>
+      <Name>MotionDetectorPluginBase</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Admin\IFloor\projects\wxVideoProcessing\ThirdParty\build\MotionPrimitives\Win\MotionPrimitives.vcxproj">
+      <Project>{1903244B-9312-3A09-8AAD-8D78C1A4F977}</Project>
+      <Name>MotionPrimitives</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Admin\IFloor\projects\wxVideoProcessing\Utils\Win\Utils.vcxproj">
+      <Project>{14D82890-BB7F-3748-8713-43304E91CFA1}</Project>
+      <Name>Utils</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Admin\IFloor\projects\wxVideoProcessing\ThirdParty\build\strmbas\Win\strmbas.vcxproj">
+      <Project>{23CF91DE-A1B5-3EE0-827D-ACAFD80C7CB2}</Project>
+      <Name>strmbas</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Admin\IFloor\projects\wxVideoProcessing\ThirdParty\build\videoInput\Win\videoInput.vcxproj">
+      <Project>{007E33A1-3B69-3DBB-8C44-8A54188A3A21}</Project>
+      <Name>videoInput</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Admin\IFloor\projects\wxVideoProcessing\wxGuiPluginBase\Win\wxGuiPluginBase.vcxproj">
+      <Project>{016D40A8-D2BA-3C2B-8741-718BD5CE7B51}</Project>
+      <Name>wxGuiPluginBase</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Admin\IFloor\projects\wxVideoProcessing\ThirdParty\build\wxJSON\build\Win\wxJSON.vcxproj">
+      <Project>{7887B55C-77B9-3262-AFAD-ABA738C61029}</Project>
+      <Name>wxJSON</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Admin\IFloor\projects\wxVideoProcessing\ThirdParty\build\wxXS\build\Win\wxXS.vcxproj">
+      <Project>{78CFCEBE-5466-3128-9717-547416DBFFE5}</Project>
+      <Name>wxXS</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

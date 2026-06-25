@@ -124,7 +124,7 @@ void wxModularHostApp::TestNonGuiPlugins()
 	{
 		if(m_PluginManager->LoadAllPlugins(true))
 		{
-			for(wxNonGuiPluginBaseList::Node * node = 
+			for(wxNonGuiPluginBaseList::compatibility_iterator node = 
 				m_PluginManager->GetNonGuiPlugins().GetFirst(); node; node = node->GetNext())
 			{
 				wxNonGuiPluginBase * plugin = node->GetData();
